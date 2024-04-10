@@ -1,0 +1,18 @@
+Table 1 & 2: VaR and CVaR for Normal and Student's t distributions
+
+Quantile                      0.95                                        0.99
+Metric                         VaR       CVaR   VaR_SGLD  CVaR_SGLD        VaR       CVaR  VaR_SGLD  CVaR_SGLD
+Distribution Parameters                                               
+Normal       μ=0, σ=1     1.640694   2.047176   1.676598   2.048872   2.367416   2.652546  2.277957   2.662234
+             μ=1, σ=2     4.362699   5.176985   4.299089   5.179276   5.589613   6.272449  5.631745   6.272836  
+             μ=3, σ=5    11.209098  13.212546  11.220151  13.212548  14.866912  16.615365  14.67218  16.630728 
+
+
+Quantile                     0.95                                    0.99  
+Metric                        VaR      CVaR  VaR_SGLD CVaR_SGLD       VaR       CVaR  VaR_SGLD CVaR_SGLD 
+Distribution Parameters                                                     
+Student's t  d.f.=10     1.809945  2.428356  1.819194  2.428427  2.801026   3.434519  2.792616  3.434602
+             d.f.=7      1.886062  2.632903   1.92646  2.633986  3.016819   3.760668  3.001689  3.760819
+             d.f.=3      2.273254  3.873971  2.332338  3.875418   4.49118   6.976982  4.650171  6.98622
+
+ 
